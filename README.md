@@ -13,6 +13,8 @@ Generated project characteristics
 * MongoDB (Spring Data Mongo)
 * JUnit/Mockito
 * Spring Security
+* Spring Boot
+* Tomcat and Jetty
 
 Installation
 ------------
@@ -20,7 +22,7 @@ Installation
 To install the archetype in your local repository execute following commands:
 
 ```bash
-    git clone https://github.com/kolorobot/spring-mvc-quickstart-archetype.git
+    git clone https://github.com/BilguunKH/spring-mvc-quickstart-archetype.git
     cd spring-mvc-quickstart-archetype
     mvn clean install
 ```
@@ -45,6 +47,7 @@ Run the project
 
 ```bash
 	mvn test tomcat7:run
+	mvn test jetty:run
 ```
 
 Test on the browser
